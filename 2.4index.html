@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ro-Sham-Bo!</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <script>
+    let playerPick = prompt("Choose rock, paper or scissors");
+    let compuPick = Math.random();
+    if (compuPick , 0.34) {
+        compuPick = "rock";
+
+    } else if(compuPick <= 0.67) {
+      compuPick = "paper";
+    }
+
+    } else {
+      compuPick = :"scissors";
+    }
+
+    funciton compare(choice1, choice2){
+        if(choice1===choice2){
+          return ('Tie');
+        }
+        if(choice1==="rock"){
+          if(choice2==="scissors"){
+            return ("rock is the winner!");
+          }else{
+            return ('paper is the winner!');
+        }
+
+        }
+        if(choice1==="paper"){
+          if(choice2==="rock"){
+            return ("paper is winner!");
+          }else{
+            return ("scissors is the winner");
+          }
+        }
+        if(choice1==="scissors"){
+          if(choice2==="paper"){
+            return ("scissors is the winner");
+          }else{
+            return ("rock is the winner");
+          }
+        }
+      }
+
+      console.log(compare(choice1,choice2));
+
+
+
+    </script>
+  </head>
+  <body>
+    <h1>Ro Sham Bo! jhgjhgs</h1>
+    <div class="output">
+    </div>
+    <div class="input">
+      <button class="rock">Rock</button>
+      <button class="scissors">Scissors</button>
+      <button class="paper">Paper</button>
+    </div>
+  </body>
+</html>
